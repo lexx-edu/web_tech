@@ -1,0 +1,45 @@
+html {
+    background-color: lightgray;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    color: rgb(44, 44, 44);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0px;
+}
+
+img {
+    width: inherit;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 20px;
+}
+
+ul {
+    margin-top: 6px;
+    font-style: italic;
+    color: rgb(100, 100, 100);
+}
+
+li {
+    list-style-type: none;
+}
+
+li:before {
+    content: "- ";
+}
+
+.list {
+    margin-bottom: 0px;
+}
